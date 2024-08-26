@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import { Logo } from "./const.js";
 import "../assets/style/css/Font.css";
 import {
@@ -10,11 +11,13 @@ import {
   Pl,
   TextField,
   Contenedorinput,
-  Boton
-} from "../assets/style/stylecomponets/styled.jsx";
+  Boton,
+} from "../assets/style/stylecomponets/styled.js";
 import { useState } from "react";
 
-export function Singing () {
+export function Singing() {
+  const navigate = useNavigate(); // Hook de navegación
+
   const [content, setContent] = useState({
     texto:
       "Login or create an account with your phone number to start ordering",
@@ -43,14 +46,16 @@ export function Singing () {
 
   const hadleclicks = () => {
     setClickCount((prevCount) => {
-      // Calcula el nuevo índice basado en el número de clics
-      const newIndex = (prevCount + 1) % contenido.length;
+      const newCount = prevCount + 1;
+      const newIndex = newCount % contenido.length;
 
-      // Actualiza el contenido basado en el nuevo índice
-      setContent(contenido[newIndex]);
+      if (newCount === 2) {
+        navigate("/crearcuenta"); // Redirige a otro componente
+      } else {
+        setContent(contenido[newIndex]);
+      }
 
-      // Devuelve el nuevo contador de clics
-      return newIndex;
+      return newCount;
     });
   };
 

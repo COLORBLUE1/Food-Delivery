@@ -1,24 +1,25 @@
-import styled from "styled-components";
 import "../assets/style/css/Font.css";
 import "animate.css";
 import { Contenidoone } from "./const.js";
-import { Carrusel } from "./Blocks/slider";
-import { Singing } from "./singin";
+import { Carrusel } from "./Blocks/Slider.jsx";
 import {
   Contenedorone,
   ContenedorBoton,
   Comentariocont,
   Boton,
-} from "../assets/style/stylecomponets/styled";
+} from "../assets/style/stylecomponets/styled.js";
+import { Link } from "react-router-dom";
 
-export function Infoinicial({ onNext }) {
+export function Infoinicial() {
+
+
   return (
-    <Contenedorone>
-      <Carrusel items={Contenidoone} />
-      <ContenedorBoton>
-        <Comentariocont></Comentariocont>
-        <Boton onClick={onNext}>Next</Boton>
-      </ContenedorBoton>
-    </Contenedorone>
+   <Contenedorone>
+     <Carrusel items={Contenidoone} />
+     <ContenedorBoton>
+       <Comentariocont></Comentariocont>
+       <Link to={"/phone"}><Boton>Next</Boton></Link>
+     </ContenedorBoton>
+   </Contenedorone>
   );
 }

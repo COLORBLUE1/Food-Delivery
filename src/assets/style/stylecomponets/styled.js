@@ -48,7 +48,7 @@ export const Img = styled.img`
 
   //animacion de imagen
 
-  animation: zoomIn;
+  animation: rubberBand;
   animation-duration: 1s;
 `;
 
@@ -59,9 +59,9 @@ export const TextField = styled.input`
   max-width: 100vw;
   width: 50vw;
   height: 40px;
-  box-sizing: border-box;
+  box-sizing: border-box;|||
 
-  &:focus-visible {
+  &:focus-visible {|
     outline: none;
   }
 `;
@@ -73,6 +73,8 @@ export const Svg = styled.div`
 
 export const Contenedorinput = styled.div`
   position: relative;
+  display: grid;
+  padding: 30px;
 `;
 
 export const Contenedorone = styled.section`
@@ -115,7 +117,7 @@ export const Parrafos = styled.p`
   text-align: center;
   padding: 10px;
 
-    //animacion
+  //animacion
 
   animation: fadeInUp;
   animation-duration: 1s;
@@ -172,4 +174,13 @@ export const LogoImg = styled.img`
 
   animation: rubberBand;
   animation-duration: 2s;
+`;
+
+export const ContenedorNavber = styled.div`
+  position: fixed;
+  bottom: 0;
+  margin: auto;
+  transform: translateX(-50%);
+  left: 50%;
+  padding: 0 10px;
 `;
