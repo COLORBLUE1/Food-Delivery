@@ -21,7 +21,7 @@ Con el Sprint 2 se pretende que los beneficiarios tengan los conceptos esenciale
 - Minibackend Vercel ó Render<br><br>
 - Promesas y peticiones<br><br>
 
-# screenshot
+# Screenshot
 
 [![Fire-Shot-Capture-1669-FOOD-DELIVERY-food-delivery-lovat-delta-vercel-app.png](https://i.postimg.cc/sXyfNqsp/Fire-Shot-Capture-1669-FOOD-DELIVERY-food-delivery-lovat-delta-vercel-app.png)](https://postimg.cc/McP8cscT)
 
