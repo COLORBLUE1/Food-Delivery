@@ -25,6 +25,8 @@ Con el Sprint 2 se pretende que los beneficiarios tengan los conceptos esenciale
 
 [![Fire-Shot-Capture-1669-FOOD-DELIVERY-food-delivery-lovat-delta-vercel-app.png](https://i.postimg.cc/sXyfNqsp/Fire-Shot-Capture-1669-FOOD-DELIVERY-food-delivery-lovat-delta-vercel-app.png)](https://postimg.cc/McP8cscT)
 
+[![Fire-Shot-Capture-1672-FOOD-DELIVERY-food-delivery-lovat-delta-vercel-app.png](https://i.postimg.cc/SQnQt6p1/Fire-Shot-Capture-1672-FOOD-DELIVERY-food-delivery-lovat-delta-vercel-app.png)](https://postimg.cc/dDKKhT3G)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
