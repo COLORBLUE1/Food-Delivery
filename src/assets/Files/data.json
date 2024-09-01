@@ -1,0 +1,120 @@
+{
+  "dishes": [
+    {
+      "id": 1,
+      "photo": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Meat pizza",
+      "type": "pizza",
+      "place": "Aromat Bakery",
+      "cost": 29
+    },
+    {
+      "id": 2,
+      "photo": "https://images.unsplash.com/photo-1593246049226-ded77bf90326?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Combined pizza",
+      "type": "pizza",
+      "place": "Aromat Bakery",
+      "cost": 31.5
+    },
+    {
+      "id": 3,
+      "photo": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Pizza with meat and mushrooms",
+      "type": "pizza",
+      "place": "Aromat Bakery",
+      "cost": 26.9
+    },
+    {
+      "id": 4,
+      "photo": "https://images.unsplash.com/photo-1590947132387-155cc02f3212?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Hawaiian pizza",
+      "type": "pizza",
+      "place": "Aromat Bakery",
+      "cost": 35
+    },
+    {
+      "id": 5,
+      "photo": "https://images.unsplash.com/photo-1628840042765-356cda07504e?q=80&w=2742&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Sausage pizza",
+      "type": "pizza",
+      "place": "Aromat Bakery",
+      "cost": 30
+    },
+    {
+      "id": 6,
+      "photo": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?q=80&w=2869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Vegetarian pizza",
+      "type": "pizza",
+      "place": "Aromat Bakery",
+      "cost": 32
+    },
+    {
+      "id": 7,
+      "photo": "https://s3-alpha-sig.figma.com/img/f375/7f2d/e061b7a56e124c7e0761545d650cce2b?Expires=1655683200&Signature=eIinJBu8ZYrfxju2BxX5r~8KJpPFp8x8M6krwH6fd7eB-J4TvwykoENg-ZaN-3VCBAv~1-Wqh7d5DRZZMs49KKtaimAB-VxQfuyp4xPMmjQiBh3gCNQU2ROjgLMNqZ61yl9HoBbW1z78XN0-AtMiv8Y0sHWIjQCPgaKD~sIT013fbfZDqf4qW~JnesuusuyNFuuFc6oopowdTK1QsnrTDhVI3tXQO8CpiCyejxH~i4UXzdLQ1VUt1KcgsitccyOv356hlsIa~kt0UbdxLNVQUWZoBlLPtMkcSRkkGTomuTwQ0Bh1klj1HkHURCkLHFpb5bmIGcyXka8v8oaXDGwyrA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "title": "Bolognese salad",
+      "type": "salad",
+      "place": "Pardes Restaurant",
+      "cost": 14.45
+    },
+    {
+      "id": 8,
+      "photo": "https://s3-alpha-sig.figma.com/img/1201/0c03/81befe707c027781720f9764f396d780?Expires=1655683200&Signature=P0IbRYYl9i7-PViXufwzi0Hirskm5FE6IUlicgQGqaWIHMIa4el06FrcZJOC~FHURbz1t61TRHqNw2GoGeXvPaDRLlErOacN0ZYkfaNrkD9sf7E9cnE3vjE-LPAow0nJwBs-jkBPaMjSw~j~OrbuVAOh6lgMd4VkRRjw6lgV~hSA5-oLC8MHyxSmIh6WEf99mRrQokXJ8sDZ-TWAJRzp-I8S2GwBlmOTS6DQoandBIkauFrgdxUba2AQhqXtsu2Q6CI35mkxm-EkfCXWB-1zpGw16IkZFVpTYpDOeWG-H50azQt9ZWVajTgN2pPqA~R8BQ4eu~Y-6DFl2chFpYUWmw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "title": "Salad with shrimp",
+      "type": "salad",
+      "place": "Pardes Restaurant",
+      "cost": 19.05
+    },
+    {
+      "id": 9,
+      "photo": "https://s3-alpha-sig.figma.com/img/255f/ec55/df09594f35ff96fcae46c638467e42c8?Expires=1655683200&Signature=HpEds2q1HoXNvZbkH9VbZIZnhYPDWi5qUY3Fg~I128HyzYTgchr1Q4z9RVUv-LIvvC~FVp6OdJYZAjhxlIfNf5XT6Xet1CFRqZ~5buMDQGU0R-vGMjx-K3kJJ960K-LSI0z5cB7taMEiyTeA9RmVp3Y13-1xVIyJgn3Cw3X7L9Jl7tEsQOMwYP6x0QnGUBPaSONYEiWsTezZPZ~MzHFo3IoNICQzm9bUvNyPTYs7PYsmZfUNdHQtuGalXuIwbJeoTttO7qjs8Ylytf4TlT2d4mSWu-4u1ptpeOUhy27~wKIQHYlptxYnUtq7SPVvTgEWzxBQ6w22t8Wjr5UwGf3wvA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "title": "Caesar salad without sauce",
+      "type": "salad",
+      "place": "Pardes Restaurant",
+      "cost": 17.45
+    },
+    {
+      "id": 10,
+      "photo": "https://s3-alpha-sig.figma.com/img/4317/6618/bd702e5247cf05cebdbccd9f6def186d?Expires=1655683200&Signature=HEViZRinwSkNd2lzeWiR6VIhTf5uMWzOIDvXulcccurRERQ6fX4wtIHoGJtQj4JWnzPsgfmU~ImTnhv2V2PwwmFZNZe~JxWfqjk3wDQ8jgTSf2b4ZktPqu3k8W4wZw5VoPry5SWBRvP0A3i7P7S8Z1UtzzhWYpWyks9Zcv8AG7G52M2pWcIJq9wN7Pr1eH2L0P1MNBrDwnP5uwrJ6TTmPf8F-oCEYnLsGvC~h4R68vL9fyF36ll8Rj0I1T2QwL9o4uA2v~1ejgQdaZ1KqAs6X6cO0pbEyCmkPdyueLKJ~TI4rhdP8i0-aNHiVvrrjS5SWvRhHGz5qRz8D0D4Vrr-uh1C8HwcJvsWvg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "title": "Greek salad",
+      "type": "salad",
+      "place": "Pardes Restaurant",
+      "cost": 16.25
+    },
+    {
+      "id": 11,
+      "photo": "https://images.unsplash.com/photo-1556916490-4a9fa440319d?q=80&w=2710&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Noodle soup",
+      "type": "soup",
+      "start": "3",
+      "place": "Zohar Cafe",
+      "cost": 11.5
+    },
+    {
+      "id": 12,
+      "photo": "https://images.unsplash.com/photo-1542218837-e08d93fa419a?q=80&w=2801&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Tomato soup",
+      "type": "soup",
+      "start": "3",
+      "place": "Zohar Cafe",
+      "cost": 10.25
+    },
+    {
+      "id": 13,
+      "photo": "https://images.unsplash.com/photo-1519342850141-ccff4f0d4ac8?q=80&w=2950&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Pumpkin soup",
+      "type": "soup",
+      "start": "3",
+      "place": "Zohar Cafe",
+      "cost": 12.75
+    },
+    {
+      "id": 14,
+      "photo": "https://images.unsplash.com/photo-1593792194745-cd7268c409c3?q=80&w=2950&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Chicken soup",
+      "type": "soup",
+      "start": "3",
+      "place": "Zohar Cafe",
+      "cost": 13
+    }
+  ]
+}

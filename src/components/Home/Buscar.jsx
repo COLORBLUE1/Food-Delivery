@@ -1,11 +1,15 @@
-import { Contenedormain } from "../../assets/style/stylecomponets/styled";
 import { Navbar } from "../Blocks/Navbar";
+import { Inputbuscar } from "../Blocks/Inputbuscar";
+import { Sectionhome } from "../../assets/style/stylecomponets/styled";
 
 export function Buscar() {
   return (
-    <Contenedormain>
-    <h1>Hola, soy Buscar</h1>
-    </Contenedormain>
-
+    <Sectionhome>
+      <Inputbuscar />
+      <p>Recent searches</p>
+      <div>
+        <p>reciente</p>
+      </div>
+    </Sectionhome>
   );
 }

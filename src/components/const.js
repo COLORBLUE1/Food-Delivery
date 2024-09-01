@@ -18,3 +18,18 @@ export const Contenidoone = [
     img: "https://i.postimg.cc/6QxPhqd3/Svg-1.png",
   },
 ];
+
+export const Contenidotwe = [
+  {
+    id: 1,
+    img: "https://img.pikbest.com/backgrounds/20211027/restaurant-opening-promotion-promotion-banner_6207379.jpg!w700wp",
+  },
+  {
+    id: 2,
+    img: "https://img.pikbest.com/backgrounds/20211027/restaurant-opening-promotion-promotion-banner_6207379.jpg!w700wp",
+  },
+  {
+    id: 3,
+    img: "https://img.pikbest.com/backgrounds/20211027/restaurant-opening-promotion-promotion-banner_6207379.jpg!w700wp",
+  },
+];

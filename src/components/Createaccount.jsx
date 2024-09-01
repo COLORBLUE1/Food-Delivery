@@ -19,6 +19,7 @@ export function Createaccount() {
     localStorage.setItem("name", name);
     localStorage.setItem("email", email);
     localStorage.setItem("pasword", password);
+    localStorage.setItem("ubicacion", "Cali");
   }
 
   return (

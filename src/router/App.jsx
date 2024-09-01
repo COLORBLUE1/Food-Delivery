@@ -12,6 +12,8 @@ import { Buscar } from "../components/Home/Buscar";
 import { Recientes } from "../components/Home/Recientes";
 import { Cuenta } from "../components/Home/Cuenta";
 import { Ubicacion } from "../components/Home/Ubicacion";
+import { Editarperfil } from "../components/Extra/Editarperfil";
+import { Payment } from "../components/Extra/Payment";
 
 export function App() {
   return (
@@ -39,6 +41,13 @@ export function App() {
         <Route path="/cuenta" element={<Cuenta />} />
         <Route path="/Ubicacion" element={<Ubicacion />} />
       </Routes>
+
+      <Routes>
+        {/*Rutas extra*/}
+        <Route path="/editacount" element={<Editarperfil />} />
+        <Route path="/Payment" element={<Payment />} />
+      </Routes>
+
       <Navbar />
     </BrowserRouter>
   );

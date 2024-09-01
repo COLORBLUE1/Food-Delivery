@@ -184,3 +184,109 @@ export const ContenedorNavber = styled.div`
   left: 50%;
   padding: 0 10px;
 `;
+
+//sections del home
+
+export const Sectionhome = styled.section`
+  padding: 30px;
+`;
+
+//styled cards
+
+export const Card = styled.div`
+  display: flex;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  width: 100%;
+  align-items: center;
+`;
+
+export const Portadacard = styled.img`
+  width: 150px;
+  height: 130px;
+  border-radius: 10px 20px 70px 10px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 20%, 0 190%);
+`;
+
+export const Textcard = styled.div`
+  padding: 20px;
+`;
+
+export const Titulocard = styled.h2`
+  font-size: 20px;
+  margin: 0;
+`;
+
+export const Horariocard = styled.p`
+  font-size: 15px;
+`;
+
+export const Preciocard = styled.p`
+  font-size: 10px;
+`;
+
+//Resiente styled
+
+export const Contenedorordenes = styled.div`
+  display: flex;
+  cursor: pointer;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+export const Titleordenes = styled.h2`
+  text-align: center;
+`;
+
+export const Titlerestaurante = styled.h4`
+  text-align: center;
+  margin: 0;
+`;
+
+export const Precionrecientes = styled.p`
+  margin: 0;
+`;
+
+export const Datosrecientes = styled.p``;
+
+export const Contenedornlacerecientes = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+export const Enlacerecientes = styled.div`
+  color: #ffe031;
+`;
+
+export const Contenedorinfo = styled.div`
+  display: flex;
+  gap: 10px;
+  align-items: center;
+`;
+
+//menu cuenta
+
+export const Contenedormenucuenta = styled.div`
+  display: grid;
+  padding: 30px;
+  gap: 20px;
+`;
+
+export const Option = styled.button`
+  display: flex;
+  justify-content: space-between;
+  background: #f0f0f0;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  align-items: center;
+  cursor: pointer;
+`;
+
+export const Contenido = styled.span`
+  display: flex;
+  align-items: center;
+  gap: 10px;
+`;

@@ -10,6 +10,7 @@ import {
 import { ContenedorNavber } from "../../assets/style/stylecomponets/styled";
 import { useNavigate } from "react-router";
 
+
 export function Navbar() {
   const [value, setValue] = React.useState("home");
   const navigate = useNavigate();
@@ -50,9 +51,9 @@ export function Navbar() {
   };
 
   return (
-    <ContenedorNavber>
-      <BottomNavigation
-        sx={{ width: 500 }}
+    <ContenedorNavber  >
+      <BottomNavigation 
+        sx={{ background:"transparent"}}
         value={value}
         onChange={handleChange}
       >
