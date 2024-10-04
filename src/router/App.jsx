@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { SplashScreen } from "../components/SplasScreen";
 import { Infoinicial } from "../components/Infoinicial";
-import { Singin } from "../components/Singin.jsx";
+
 import { Map } from "../components/Map";
 import { Home } from "../components/Home";
 import { Createaccount } from "../components/Createaccount";
