@@ -15,7 +15,7 @@ import {
 } from "../assets/style/stylecomponets/styled.js";
 import { useState } from "react";
 
-export function Singing() {
+export function Singin() {
   const navigate = useNavigate(); // Hook de navegación
 
   const [content, setContent] = useState({
