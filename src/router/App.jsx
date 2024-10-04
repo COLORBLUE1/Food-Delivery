@@ -22,7 +22,7 @@ export function App() {
         {/*Rutas antes del Home*/}
         <Route path="/" element={<SplashScreen />} />
         <Route path="/informacion" element={<Infoinicial />} />
-        <Route path="/phone" element={<Singin />} />
+        {/* <Route path="/phone" element={<Singin />} /> */}
         <Route path="/crearcuenta" element={<Createaccount />} />
         <Route path="/map" element={<Map />} />
 
