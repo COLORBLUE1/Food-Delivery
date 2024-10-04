@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { SplashScreen } from "../components/SplasScreen";
 import { Infoinicial } from "../components/Infoinicial";
-import { Singin } from "../components/Singin.jsx";
+import { Signin } from "../components/Signin.jsx"; // Corregido Singin a Signin
 import { Map } from "../components/Map";
 import { Home } from "../components/Home";
 import { Createaccount } from "../components/Createaccount";
-//import { Error } from "../components/Blocks/Error";
+// import { Error } from "../components/Blocks/Error";
 import { Navbar } from "../components/Blocks/Navbar";
 import { Main } from "../components/Home/Main";
 import { Buscar } from "../components/Home/Buscar";
@@ -19,17 +19,17 @@ export function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/*Rutas antes del Home*/}
+        {/* Rutas antes del Home */}
         <Route path="/" element={<SplashScreen />} />
         <Route path="/informacion" element={<Infoinicial />} />
-        <Route path="/phone" element={<Singin />} />
+        <Route path="/phone" element={<Signin />} /> {/* Corregido */}
         <Route path="/crearcuenta" element={<Createaccount />} />
         <Route path="/map" element={<Map />} />
 
-        {/*Ruta de error
-        <Route path="*" element={<Error />} />*/}
+        {/* Ruta de error (descomentarlo si lo necesitas) */}
+        {/* <Route path="*" element={<Error />} /> */}
 
-        {/*Ruta al home*/}
+        {/* Ruta al home */}
         <Route path="/home" element={<Home />} />
 
         {/* Rutas del home */}
@@ -37,11 +37,11 @@ export function App() {
         <Route path="/buscar" element={<Buscar />} />
         <Route path="/reciente" element={<Recientes />} />
         <Route path="/cuenta" element={<Cuenta />} />
-        <Route path="/Ubicacion" element={<Ubicacion />} />
+        <Route path="/ubicacion" element={<Ubicacion />} /> {/* Corregido a minúsculas */}
 
-        {/*Rutas extra*/}
+        {/* Rutas extra */}
         <Route path="/editacount" element={<Editarperfil />} />
-        <Route path="/Payment" element={<Payment />} />
+        <Route path="/payment" element={<Payment />} /> {/* Corregido a minúsculas */}
       </Routes>
 
       <Navbar />
