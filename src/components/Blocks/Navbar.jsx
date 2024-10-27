@@ -20,7 +20,7 @@ export function Navbar() {
 
     switch (newValue) {
       case "home":
-        navigate("/main");
+        navigate("/home");
 
         {
           break;

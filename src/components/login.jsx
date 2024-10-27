@@ -11,10 +11,12 @@ import {
 import { Link, useNavigate } from 'react-router-dom'
 import useForm from '../hooks/useForm.js'
 import axios from 'axios'
-import { useContext } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import { UserContext } from '../context/context.js'
 
-export function Createaccount () {
+export function Login () {
+  const [users, setUsers] = useState([])
+
   const { setUser } = useContext(UserContext)
   const navigate = useNavigate()
   const [formValues, handleInputChange, reset] = useForm({
@@ -25,32 +27,44 @@ export function Createaccount () {
 
   async function handleSubmit (e) {
     e.preventDefault()
-    const newUser = {
-      ...formValues,
-      id: crypto.randomUUID()
+
+    const logedUser = users.find(user => user.email === formValues.email)
+
+    //Verifying admin user
+    if (
+      formValues.email === 'adminFood@yopmail.com' &&
+      formValues.password === 'adminGeek123'
+    ) {
+      navigate('/home')
+      setUser({
+        name: logedUser.name,
+        email: logedUser.email,
+        role: logedUser.role
+      })
+    } else if (logedUser) {
+      // Verifying client user
+      logedUser.password === formValues.password ? navigate('/home') : null
+      setUser({ name: formValues.name, email: formValues.email })
     }
-    setUser({ name: formValues.name, email: formValues.email })
-    await axios
-      .post('https://fooddeliveryapi-uco3.onrender.com/users', newUser)
-      .then(response => (response.status === 201 ? navigate('/login') : null))
   }
+
+  useEffect(() => {
+    const getUser = async () => {
+      const response = await axios.get(
+        'https://fooddeliveryapi-uco3.onrender.com/users'
+      )
+      setUsers(response.data)
+    }
+   
+    getUser()
+  }, [])
 
   return (
     <Contenedormain>
       <div>
-        <h2>Create account</h2>
+        <h2>Log in into your account</h2>
       </div>
       <Contenedorinput onSubmit={handleSubmit}>
-        <TextField
-          onChange={handleInputChange}
-          value={formValues.name}
-          name='name'
-          id='standard-basic'
-          required
-          label='NAME'
-          type='text'
-          variant='standard'
-        />
         <TextField
           onChange={handleInputChange}
           value={formValues.email}
@@ -72,10 +86,7 @@ export function Createaccount () {
           variant='standard'
         />
         <Contenedortwe>
-         
-          <Link to={"/map"}>
-          <Boton type='submit'>Sing In</Boton>
-        </Link> 
+          <Boton type='submit'>Log In</Boton>
         </Contenedortwe>
       </Contenedorinput>
     </Contenedormain>

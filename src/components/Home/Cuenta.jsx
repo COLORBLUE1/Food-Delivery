@@ -28,7 +28,7 @@ export function Cuenta() {
       <div>
         <Menucuenta />
       </div>
-      {/* <Navbar /> */}
+      <Navbar />
     </Sectionhome>
   );
 }

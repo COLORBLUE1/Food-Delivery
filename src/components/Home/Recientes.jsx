@@ -36,7 +36,7 @@ export function Recientes() {
         </Contenedornlacerecientes>
       </Contenedorordenes>
 
-      {/* <Navbar /> */}
+      <Navbar />
     </Sectionhome>
   );
 }

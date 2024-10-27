@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useContext, useEffect } from 'react';
 import {
   Contenedormain,
   Contenedortwe,
@@ -6,8 +6,14 @@ import {
 } from "../assets/style/stylecomponets/styled.js";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { UserContext } from '../context/context.js';
 
 export function Map() {
+  const { user, setUser} = useContext(UserContext);
+
+  console.log(user);
+
+
   // Define styled components
   const Texto = styled.p`
     text-align: right;
@@ -34,12 +40,13 @@ export function Map() {
               `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`
             );
             const data = await response.json();
-            
-          
-            console.log('API Response:', data);
 
             if (data && data.name) {
               location.city = data.name;
+              setUser({
+                ...user,
+                location: data.name
+              })
             } else {
               location.city = 'Unknown location';
             }

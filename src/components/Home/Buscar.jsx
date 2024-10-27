@@ -10,6 +10,7 @@ export function Buscar() {
       <div>
         <p>reciente</p>
       </div>
+      <Navbar />
     </Sectionhome>
   );
 }

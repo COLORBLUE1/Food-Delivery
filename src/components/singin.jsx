@@ -15,7 +15,7 @@ import {
 } from "../assets/style/stylecomponets/styled.js";
 import { useState } from "react";
 
-export function Signin () {
+export function Singing() {
   const navigate = useNavigate(); // Hook de navegación
 
   const [content, setContent] = useState({
@@ -45,6 +45,7 @@ export function Signin () {
   ];
 
   const hadleclicks = () => {
+    //  Llame a setClickCount para controlar los mensajes que se muestran del arreglo "contenido"
     setClickCount((prevCount) => {
       const newCount = prevCount + 1;
       const newIndex = newCount % contenido.length;

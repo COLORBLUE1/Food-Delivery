@@ -71,7 +71,7 @@ export const Svg = styled.div`
   left: 20px;
 `;
 
-export const Contenedorinput = styled.div`
+export const Contenedorinput = styled.form`
   position: relative;
   display: grid;
   padding: 30px;

@@ -10,8 +10,6 @@ import { Menuscroll } from "../Blocks/Menuscroll";
 import { BiChevronDown } from "react-icons/bi";
 
 export function Main() {
-
-
   const ubiString = localStorage.getItem("userLocation");
   const ubi = ubiString ? JSON.parse(ubiString) : {};
 
