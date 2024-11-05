@@ -5,8 +5,6 @@ import { Singing } from "../components/Singin";
 import { Map } from "../components/Map";
 import { Home } from "../components/Home";
 import { Createaccount } from "../components/Createaccount";
-import { Error } from "../components/Blocks/Error";
-import { Navbar } from "../components/Blocks/Navbar";
 import { Main } from "../components/Home/Main";
 import { Buscar } from "../components/Home/Buscar";
 import { Recientes } from "../components/Home/Recientes";
