@@ -19,7 +19,7 @@ export function Main() {
       <button className="ubi">
         <GrLocation className="icono-location" />
         <div className="texto">
-          <p className="deliveri">DELIVER TO</p>
+          <p className="deliveri">Envio a:</p>
           <h3>
             {city} <BiChevronDown />
           </h3>
@@ -28,7 +28,7 @@ export function Main() {
       <div id="custom-class">
         <Carrusel items={Contenidotwe} />
       </div>
-      <p>Restaurants and cafes</p>
+      <p>Restaurantes y cafeterias</p>
       <Menuscroll />
 
       <Cards />

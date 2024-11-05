@@ -12,7 +12,7 @@ export const Inputbuscar = () => {
 return(
     <Paper
     component="form"
-    sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: "100%", height:50, background: "F2F2F2", borderRadius: 2}}
+    sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: "70%", height:50, background: "F2F2F2", borderRadius: 2}}
   >
     <IconButton sx={{ p: '10px' }} aria-label="menu">
     <SearchIcon />

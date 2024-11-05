@@ -24,7 +24,7 @@ export const Menuscroll = () => {
         sx={{ minWidth: 150, lineHeight: 1, height: 40, background: "#ffe031" }}
         disableElevation
       >
-        all
+        Todo
       </Button>
 
       <Button

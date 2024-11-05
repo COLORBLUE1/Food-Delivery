@@ -22,6 +22,7 @@ export const Contenedoricon = styled.div`
 export const Contenedortwe = styled.div`
   align-items: end;
   display: grid;
+  justify-items: center;
 `;
 
 export const Contenedorpolitica = styled.div`

@@ -58,13 +58,13 @@ export function Navbar() {
         onChange={handleChange}
       >
         <BottomNavigationAction
-          label="."
+          label=""
           value="home"
           icon={<FaHouseChimney />}
         />
         <BottomNavigationAction label="." value="buscar" icon={<FaSistrix />} />
         <BottomNavigationAction
-          label="."
+          label=""
           value="reciente"
           icon={<FaArrowRotateLeft />}
         />

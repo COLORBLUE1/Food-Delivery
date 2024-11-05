@@ -62,7 +62,7 @@ export function Login () {
   return (
     <Contenedormain>
       <div>
-        <h2>Log in into your account</h2>
+        <h2>Ingresa a tu cuenta</h2>
       </div>
       <Contenedorinput onSubmit={handleSubmit}>
         <TextField
@@ -71,7 +71,7 @@ export function Login () {
           name='email'
           id='standard-basic'
           required
-          label='EMAIL'
+          label='Correo'
           type='email'
           variant='standard'
         />
@@ -81,12 +81,12 @@ export function Login () {
           name='password'
           id='standard-basic'
           required
-          label='PASSWORD'
+          label='Contraseña'
           type='password'
           variant='standard'
         />
         <Contenedortwe>
-          <Boton type='submit'>Log In</Boton>
+          <Boton type='submit'>Ingresar</Boton>
         </Contenedortwe>
       </Contenedorinput>
     </Contenedormain>
