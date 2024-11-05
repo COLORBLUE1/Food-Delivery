@@ -11,15 +11,15 @@ import {
 import { Link } from "react-router-dom";
 
 export function Infoinicial() {
-
-
   return (
-   <Contenedorone>
-     <Carrusel items={Contenidoone} />
-     <ContenedorBoton>
-       <Comentariocont></Comentariocont>
-       <Link to={"/phone"}><Boton>Next</Boton></Link>
-     </ContenedorBoton>
-   </Contenedorone>
+    <Contenedorone>
+      <Carrusel items={Contenidoone} />
+      <ContenedorBoton>
+        <Comentariocont></Comentariocont>
+        <Link to={"/login"}>
+          <Boton>Continuar</Boton>
+        </Link>
+      </ContenedorBoton>
+    </Contenedorone>
   );
 }
