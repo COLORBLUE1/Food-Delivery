@@ -1,6 +1,5 @@
 import '../assets/style/css/Font.css'
 import TextField from '@mui/material/TextField'
-import { Map } from './Map.jsx'
 import '../assets/style/css/Createaccount.css'
 import {
   Contenedormain,

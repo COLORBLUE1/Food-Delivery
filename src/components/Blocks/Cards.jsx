@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import Rating from "@mui/material/Rating";
-
 import {
   Card,
   Portadacard,
