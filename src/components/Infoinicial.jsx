@@ -1,7 +1,7 @@
 import "../assets/style/css/Font.css";
 import "animate.css";
 import { Contenidoone } from "./const.js";
-import { Carrusel } from "./Blocks/Slider.jsx";
+
 import {
   Contenedorone,
   ContenedorBoton,
@@ -9,6 +9,7 @@ import {
   Boton,
 } from "../assets/style/stylecomponets/styled.js";
 import { Link } from "react-router-dom";
+import { Carrusel } from "./Blocks/Carrusel.jsx";
 
 export function Infoinicial() {
   return (

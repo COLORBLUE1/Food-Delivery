@@ -1,6 +1,6 @@
 import "../../assets/style/css/Main-style.css";
 import { Sectionhome } from "../../assets/style/stylecomponets/styled";
-import { Carrusel } from "../Blocks/Slider";
+import { Carrusel } from "../Blocks/Carrusel";
 import { Contenidotwe } from "../const";
 import { GrLocation } from "react-icons/gr";
 import { Cards } from "../Blocks/Cards";

@@ -1,7 +1,6 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import "../const.js";
 import PropTypes from "prop-types";
-import { Contenidoone } from "../const.js";
 import styled from "styled-components";
 
 // Styled components
