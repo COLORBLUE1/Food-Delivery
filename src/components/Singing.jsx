@@ -26,7 +26,7 @@ export function Singing() {
     politicaslink: "Terms of use",
   });
 
-  const [clickCount, setClickCount] = useState(0);
+  const [setClickCount] = useState(0);
 
   const contenido = [
     {
