@@ -5,7 +5,7 @@ import { Singing } from "../components/Singing";
 import { Map } from "../components/Map";
 import { Home } from "../components/Home";
 import { Createaccount } from "../components/Createaccount";
-import { Main } from "../components/Home/Main";
+import { Main } from "../components/Home/Main.jsx";
 import { Buscar } from "../components/Home/Buscar";
 import { Recientes } from "../components/Home/Recientes";
 import { Cuenta } from "../components/Home/Cuenta";

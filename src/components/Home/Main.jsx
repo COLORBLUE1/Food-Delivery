@@ -1,5 +1,3 @@
-import { Navbar } from "../Blocks/Navbar";
-import React, { useEffect } from "react";
 import "../../assets/style/css/Main-style.css";
 import { Sectionhome } from "../../assets/style/stylecomponets/styled";
 import { Carrusel } from "../Blocks/Slider";
